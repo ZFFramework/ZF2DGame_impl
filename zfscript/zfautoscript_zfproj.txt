@@ -1,0 +1,17 @@
+ZF_NAME = ZF2DGame_impl
+ZF_TYPE = impl
+
+ZF_OUTPUT = ..
+ZF_INPLACE = 1
+ZF_INPLACE_SRC = ZFFramework/ZFModule/$ZF_NAME
+
+ZF_LIB += ZFCore
+ZF_LIB += ZFUtility
+ZF_LIB += ZFAlgorithm
+ZF_LIB += ZFUIKit
+ZF_LIB += ZFUIWidget
+
+ZF_IMPL += ZF_impl
+
+ZF_LIB_EXT += https://github.com/ZFFramework/ZF2DGame
+
